@@ -1,0 +1,34 @@
+<div>
+    <div class="jumbotron-fluid p-5 text-center bg-info">
+        <h1 class="display-1">Welcome to my Blog</h1>
+        <div class="col-7 text-center m-auto">
+            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Deleniti neque blanditiis vitae unde officia nisi 
+            </p>
+        </div>
+    </div>
+    <div>
+        <h1 *ngIf="allPosts" class="text-center">All Posts</h1>
+        <hr>
+        
+        <ul *ngIf="allPosts" class="list-group list-group-flush">
+            <li class="list-group-item" *ngFor="let post of allPosts">
+                <div class="card">
+                    <div class="card-header bg-primary">
+                        <h4 class="card-title">{{ post.title  }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>{{ post.body | limitWordsPipe : 15 }}...</p>
+                        <a class="btn btn-secondary text-white" [routerLink]="['postdetail',post.id]" >View Post</a>
+                    </div>
+                    <div class="card-footer pt-1 pb-1">
+                        <p class="text-small"><i><b>Description: </b>{{ post.description }}</i></p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div *ngIf="!allPosts" class="text-center">
+            <h4 class="text-danger">Error occured and the posts couldn't be fetched</h4>
+        </div>
+    </div>
+</div>

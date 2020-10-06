@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Omotola Impresses Fan with new hairstyle",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima libero ullam beatae delectus harum rem exercitationem fuga, optio expedita!",
+      "description": "this is the first post"
+    },
+    {
+      "id": 2,
+      "title": "Don Jazzy Signs new Record Artist",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus minima libero ullam beatae delectus harum rem exercitationem fuga, optio expedita!",
+      "description": "this is the second post"
+    },
+    {
+      "id": 5,
+      "title": "Mercy Johnson visits an orphanage in Ikorodu",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus nemo neque quos beatae ducimus libero aliquam porro quod. Earum, quaerat fugit. Molestias facilis impedit, alias ea vel perferendis animi eaque.",
+      "description": "This is the fifthe post"
+    },
+    {
+      "id": 8,
+      "title": "P-Square Plans To Come Back After Years Of Separation",
+      "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia voluptas exercitationem perferendis sed ad quaerat quos corrupti laborum, repellat illo maxime cupiditate nisi nobis optio? Aliquid repellendus soluta quibusdam.",
+      "description": "P-square"
+    },
+    {
+      "id": 9,
+      "title": "Dbanj returns to Marvins Record",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A, dolorum, non voluptatibus quam, enim nesciunt incidunt voluptas debitis sit quas rerum aspernatur illum repudiandae veniam cum. Minima perspiciatis sequi aperiam eius nisi nesciunt accusamus iusto, beatae omnis fugiat nemo officiis dolore eaque ipsam molestiae cum! Voluptatibus nostrum voluptas tenetur vitae.",
+      "description": "Marvins, D-Banj"
+    },
+    {
+      "id": 10,
+      "title": "Rema Drops new jam",
+      "body": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni aperiam voluptatibus repudiandae? Sit praesentium ipsum explicabo asperiores mollitia? Atque dolores odit similique esse enim facere praesentium fugit officiis commodi, veniam explicabo repellendus consequuntur iusto quidem quis rerum saepe voluptatibus doloribus, at neque quo aut minima distinctio? Repudiandae fugiat consequatur vero numquam repellat soluta consectetur ipsa amet nisi suscipit! Labore, quas?",
+      "description": "Rema music"
+    },
+    {
+      "title": "New Lambogini for TrikkyT",
+      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, rerum corrupti. Mollitia rem aperiam culpa sed repudiandae, perferendis cumque illo.",
+      "description": "Trikky",
+      "id": 11
+    }
+  ]
+}
